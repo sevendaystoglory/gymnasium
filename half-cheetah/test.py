@@ -55,7 +55,7 @@ while True:
     # optimizing actor ---------------------
     
 
-    # optimizing critic --------------------
+    # optimizing critic --------------
     critic_loss = critic_criterion(q_value, q_target)
     optimizer.zero_grad()
     critic_loss.backward()
